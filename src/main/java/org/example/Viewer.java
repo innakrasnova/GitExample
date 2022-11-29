@@ -1,9 +1,13 @@
 package org.example;
 
+import java.util.ArrayList;
+
 public class Viewer {
     private String nickname;
     private int age;
-    private int count;
+    private ArrayList<Cinema> cinemas;
+    private int count = cinemas.size();
+
     public Viewer(String nickname, int age, int count) {
         this.nickname = nickname;
         this.age = age;
